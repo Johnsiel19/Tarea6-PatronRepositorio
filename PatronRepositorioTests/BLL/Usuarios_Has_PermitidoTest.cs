@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using PatronRepositorio.Entidades;
 
+
+
 namespace PatronRepositorio.BLL.Tests
 {
     [TestClass()]
@@ -17,7 +19,7 @@ namespace PatronRepositorio.BLL.Tests
         {
             Usuarios_Has_Permisos usuarios = new Usuarios_Has_Permisos()
             {
-           
+
                 PermisoId = 1
             };
 
@@ -63,5 +65,7 @@ namespace PatronRepositorio.BLL.Tests
             paso = repositorio.Eliminar(1);
             Assert.AreEqual(true, paso);
         }
+
+   
     }
 }

@@ -13,8 +13,8 @@ namespace PatronRepositorio.Entidades
         public int CompraId { get; set; }
         public int UsuarioId { get; set; }
         public DateTime FechaCompra { get; set; }
-        public int IdProveedor { get; set; }
-        public int IdComprobante { get; set; }
+        public int ProveedorId { get; set; }
+        public int ComprobanteId { get; set; }
         public double CostoCompra { get; set; }
 
         public Compras()
@@ -22,8 +22,8 @@ namespace PatronRepositorio.Entidades
             CompraId = 0;
             UsuarioId = 0;
             FechaCompra = DateTime.Now;
-            IdProveedor = 0;
-            IdComprobante = 0;
+            ProveedorId = 0;
+            ComprobanteId = 0;
             CostoCompra = 0;
         }
     }
