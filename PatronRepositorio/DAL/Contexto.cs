@@ -20,9 +20,20 @@ namespace PatronRepositorio.DAL
         public DbSet<Proveedores> Proveedores { get; set; }
         public DbSet<Usuarios> Usuarios { get; set; }
         public DbSet<Usuarios_Has_Permisos> Usuarios_Has_Permitido { get; set; }
-        
+        public DbSet<Categorias> Categorias { get; set; }
+        public DbSet<Compras> Compras { get; set; }
+        public DbSet<DetalleCompras> DetalleCompras { get; set; }
+        public DbSet<DetalleVentas> DetalleVentas { get; set; }
+        public DbSet<Imagenes> Imagenes { get; set; }
+        public DbSet<Marcas> Marcas { get; set; }
+        public DbSet<Modelos> Modelos { get; set; }
+        public DbSet<Productos> Productos { get; set; }
+        public DbSet<Ventas> Ventas { get; set; }
+        public DbSet<UnidadMedidas> UnidadMedidas { get; set; }
+        public DbSet<TiposComprobantes> Comprobantes { get; set; }
 
-    public Contexto() : base("ConStr")
+
+        public Contexto() : base("ConStr")
         { }
     }
 }
