@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="BLL\CategoriasTests.cs" />
     <Compile Include="BLL\ComprasTests.cs" />
+    <Compile Include="BLL\DetalleVentas.cs" />
     <Compile Include="BLL\ImagenesTest.cs" />
     <Compile Include="BLL\MarcasTest.cs" />
     <Compile Include="BLL\ModelosTest.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="BLL\UsuariosTest.cs" />
     <Compile Include="BLL\TipoPersonasTest.cs" />
     <Compile Include="BLL\Usuarios_Has_PermitidoTest.cs" />
+    <Compile Include="BLL\DetalleComprasTest.cs" />
     <Compile Include="BLL\VentasTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

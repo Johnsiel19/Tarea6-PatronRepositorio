@@ -33,7 +33,7 @@ namespace PatronRepositorio.BLL.Tests
         {
             RepositorioBase<Cargos> repositorio = new RepositorioBase<Cargos>();
             bool paso = false;
-            Cargos cargos = repositorio.Buscar(6);
+            Cargos cargos = repositorio.Buscar(1);
             cargos.EstadoId = 1;
             cargos.Nombre = "sec";
             paso = repositorio.Modificar(cargos);
@@ -44,7 +44,7 @@ namespace PatronRepositorio.BLL.Tests
         public void BuscarTest()
         {
             RepositorioBase<Cargos> repositorio = new RepositorioBase<Cargos>();
-            Cargos cargos = repositorio.Buscar(7);
+            Cargos cargos = repositorio.Buscar(1);
             Assert.IsNotNull(cargos);
         }
 
@@ -62,7 +62,7 @@ namespace PatronRepositorio.BLL.Tests
         {
             RepositorioBase<Cargos> repositorio = new RepositorioBase<Cargos>();
             bool paso = false;
-            paso = repositorio.Eliminar(6);
+            paso = repositorio.Eliminar(1);
             Assert.AreEqual(true, paso);
         }
     }
