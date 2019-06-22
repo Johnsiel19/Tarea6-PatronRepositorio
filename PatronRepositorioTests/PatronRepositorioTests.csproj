@@ -64,7 +64,15 @@
   </Choose>
   <ItemGroup>
     <Compile Include="BLL\PersonasTest.cs" />
+    <Compile Include="BLL\CargosTest.cs" />
+    <Compile Include="BLL\ClientesTest.cs" />
+    <Compile Include="BLL\EmpleadosTest.cs" />
+    <Compile Include="BLL\EstadosTest.cs" />
+    <Compile Include="BLL\PermisosTest.cs" />
+    <Compile Include="BLL\ProveedoresTest.cs" />
+    <Compile Include="BLL\UsuariosTest.cs" />
     <Compile Include="BLL\TipoPersonasTest.cs" />
+    <Compile Include="BLL\Usuarios_Has_PermitidoTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
