@@ -33,7 +33,7 @@ namespace PatronRepositorio.BLL.Tests
             RepositorioBase<TipoPersonas> db = new RepositorioBase<TipoPersonas>();
             TipoPersonas tipoPersona = new TipoPersonas()
             {
-                TipoPersonaId = 2,
+                TipoPersonaId = 1,
                 Nombre = "Johnsiel"
             };
 
@@ -45,7 +45,7 @@ namespace PatronRepositorio.BLL.Tests
         {
             RepositorioBase<Personas> db = new RepositorioBase<Personas>();
 
-            Assert.IsNotNull(db.Buscar(3));
+            Assert.IsNotNull(db.Buscar(1));
         }
 
         [TestMethod()]
@@ -61,7 +61,7 @@ namespace PatronRepositorio.BLL.Tests
         {
             RepositorioBase<TipoPersonas> db = new RepositorioBase<TipoPersonas>();
 
-            Assert.IsTrue(db.Eliminar(2));
+            Assert.IsTrue(db.Eliminar(1));
         }
     }
 }
