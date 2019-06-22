@@ -56,8 +56,16 @@
     <Compile Include="BLL\IRepositorio.cs" />
     <Compile Include="BLL\RepositorioBase.cs" />
     <Compile Include="DAL\Contexto.cs" />
+    <Compile Include="Entidades\Cargos.cs" />
+    <Compile Include="Entidades\Clientes.cs" />
+    <Compile Include="Entidades\Empleados.cs" />
+    <Compile Include="Entidades\Estados.cs" />
+    <Compile Include="Entidades\Permisos.cs" />
     <Compile Include="Entidades\Personas.cs" />
+    <Compile Include="Entidades\Proveedores.cs" />
     <Compile Include="Entidades\TipoPersonas.cs" />
+    <Compile Include="Entidades\Usuarios.cs" />
+    <Compile Include="Entidades\Usuarios_Has_Permisos.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
