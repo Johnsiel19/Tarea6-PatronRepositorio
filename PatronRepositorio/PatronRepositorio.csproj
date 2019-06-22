@@ -57,15 +57,26 @@
     <Compile Include="BLL\RepositorioBase.cs" />
     <Compile Include="DAL\Contexto.cs" />
     <Compile Include="Entidades\Cargos.cs" />
+    <Compile Include="Entidades\Categorias.cs" />
     <Compile Include="Entidades\Clientes.cs" />
+    <Compile Include="Entidades\Compras.cs" />
+    <Compile Include="Entidades\DetalleCompras.cs" />
+    <Compile Include="Entidades\DetallesVentas.cs" />
     <Compile Include="Entidades\Empleados.cs" />
     <Compile Include="Entidades\Estados.cs" />
+    <Compile Include="Entidades\Imagenes.cs" />
+    <Compile Include="Entidades\Marcas.cs" />
+    <Compile Include="Entidades\Modelos.cs" />
     <Compile Include="Entidades\Permisos.cs" />
     <Compile Include="Entidades\Personas.cs" />
+    <Compile Include="Entidades\Productos.cs" />
     <Compile Include="Entidades\Proveedores.cs" />
     <Compile Include="Entidades\TipoPersonas.cs" />
+    <Compile Include="Entidades\TiposComprovantes.cs" />
+    <Compile Include="Entidades\UnidadMedidas.cs" />
     <Compile Include="Entidades\Usuarios.cs" />
     <Compile Include="Entidades\Usuarios_Has_Permisos.cs" />
+    <Compile Include="Entidades\Ventas.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
