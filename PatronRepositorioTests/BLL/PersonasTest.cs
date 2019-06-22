@@ -88,7 +88,7 @@ namespace PatronRepositorio.BLL.RepositorioBase.Tests
         {
             RepositorioBase<Personas> db = new RepositorioBase<Personas>();
 
-            Assert.IsTrue(db.Eliminar(3));
+            Assert.IsTrue(db.Eliminar(1));
         }
 
 

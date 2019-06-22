@@ -74,10 +74,14 @@
     <Compile Include="BLL\EmpleadosTest.cs" />
     <Compile Include="BLL\EstadosTest.cs" />
     <Compile Include="BLL\PermisosTest.cs" />
+    <Compile Include="BLL\ProductosTest.cs" />
     <Compile Include="BLL\ProveedoresTest.cs" />
+    <Compile Include="BLL\TipoComprobantesTest.cs" />
+    <Compile Include="BLL\UnidadMedidasTest.cs" />
     <Compile Include="BLL\UsuariosTest.cs" />
     <Compile Include="BLL\TipoPersonasTest.cs" />
     <Compile Include="BLL\Usuarios_Has_PermitidoTest.cs" />
+    <Compile Include="BLL\VentasTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
